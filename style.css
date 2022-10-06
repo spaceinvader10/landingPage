@@ -1,0 +1,46 @@
+
+
+.navBar {
+    background-color: #1F2937;
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+
+
+.navLogo{
+    max-width: 100px;
+    max-height: auto;
+    margin: 48px;
+    
+}
+
+.headerText {
+    display: flex;
+    margin: 48px;
+    gap: 30px;
+    
+
+}
+
+a {
+    color: #F9FAF8;  
+}
+
+.heroMain{
+    font: 48px extra-bold #F9FAF8;
+}
+
+.heroSecond{
+    font: 18px #e5e7eb;
+}
+
+
+
+
+.footer {
+    background-color: #1F2937;
+}
