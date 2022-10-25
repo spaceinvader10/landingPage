@@ -4,71 +4,89 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Landing Page</title>
 </head>
 <body>
-    <div class="navBar">   
-            <a href="#"><img src="https://images.unsplash.com/photo-1633409361618-c73427e4e206?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" class="headerLogo" alt="brand"></a>
-            <nav>
-            <ul class="navLinks">
+    <nav class="navBar">
+        <div class="container">
+            <div class="logo">Header</div>
+            <ul class="navList">
                 <li>
-                    <a href="#">header link one</a>
+                    <a href="#">Header Link 1</a>
                 </li>
                 <li>
-                    <a href="#">header link two</a>
+                    <a href="#">Header Link 2</a>
                 </li>
                 <li>
-                    <a href="#">header link three</a>
+                    <a href="#">Header Link 3</a>
                 </li>
-            </ul> 
-            </nav>        
-    </div>
+            </ul>
+        </div>
+    </nav>
 
-    <div class="midRow">
+    <header class="header">
+        <div class="container">
+            <div class="heroMainText">
+                <h1>this website is awesome</h1>
+                <p>this website has some subtext that goes under the main title. It's a smaller font and the color is lower contrast</p>
+                <button>Sign up</button>
+            </div>
+
+            
+            <div class="placeholder">
+                this is a placeholder for an image
+            </div>
+        </div>
+    </header>
+
+    <section class="cards">
+        <h2>Some random information.</h2>
+        <div class="container">
+            <div class="card">
+                <p>this is some subtext under an illustration or image</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="card">
+                <p>this is some subtext under an illustration or image</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="card">
+                <p>this is some subtext under an illustration or image</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="card">
+                <p>this is some subtext under an illustration or image</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="quote">
+        <div class="container">
+            <q>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actulaly read it. Who Knows? All I know is that it looks nice.</q>
+            <h6>-Thor, God of Thunder</h6>
+        </div>
         
-        <div class="heroMain">This website is awesome</div>
-        <div class="heroSecond">this website has some subtext</div>
+    </section>
+
+  <footer>
+    <div class="container">
+        <div class="callToAction">
+            <h2>Call to action! It's time!</h2>
+            <p>Sign up for our product by clicking that button right over there!</p>
+        </div>
         <button>Sign up</button>
-        <div class="heroLogo">
-            <img src="" alt="">
-        </div>
-
-    </div>
-    
-    <div class="upperWhiteRow">
-        <div class="caption">Some random information</div>
-        <div class="imagebox 1">
-            <div class="text">some text here</div>
-        </div>
-        <div class="imagebox 2">
-            <div class="text">some text here</div>
-        </div>
-        <div class="imagebox 3">
-            <div class="text">some text here</div>
-        </div>
-        <div class="imagebox 4">
-            <div class="text">some text here</div>
-        </div>
-
     </div>
 
-    <div class="quoteSection">
-        <div class="inspirationalQuote">Blah blah blah</div>
-        <div>Author of quote</div>
-    </div>
+  </footer>
 
-    <div class="footer">
-        <div class="lowerBlueBox">
-            <div class="subheading">Call to action! It's time!</div>
-            <div class="signupText">Sign up for iour product by clicking that button right over there!</div>
-            <button disabled="disabled">Sign up</button>
-        </div>
-    </div>
-   
 
 
 </body>
