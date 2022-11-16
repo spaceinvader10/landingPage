@@ -152,8 +152,6 @@ header > .container > .heroMainText > button {
   height: 400px;
   background: #E5E7EB;
   font-size: 36px;
-  font-style: italic;
-  font-weight: lighter;
   color: #1f2937;
   justify-content: center;
   align-items: center;
@@ -161,7 +159,8 @@ header > .container > .heroMainText > button {
 
 
 .quote > .container> p {
-
+  font-style: italic;
+  font-weight: lighter;
   max-height: 300px;
   margin-left: 14em;
   margin-right: 14em;
